@@ -1,0 +1,127 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Droid Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+.ja-megamenu a.over, .ja-megamenu a.active { color: #fff !important; }
+
+/* lv - 0
+-----------------------------------*/
+.ja-megamenu ul.level0 li.mega {
+	background: url(https://www.legal-com.ru/templates/ja_droid/images/mainnav-sep.gif) no-repeat right center;
+	padding-right: 1px;
+}
+
+.ja-megamenu ul.level0 li.last {
+	background: none;
+	padding-right: 0;
+}
+
+.ja-megamenu ul.level0 li a {
+	color: #94a0be;
+	padding: 15px 20px !important;
+	font-weight: normal !important;
+	font-size: 110%;
+	text-transform: uppercase;
+}
+
+.ja-megamenu ul.level0 li.active a.mega {
+	color: #fff;
+}
+
+.ja-megamenu ul.level0 li.over a.over {
+	background: #3C5189;
+}
+
+/* lv - 1 and below
+-----------------------------------*/
+/* Styling ---*/
+.ja-megamenu ul.level1 li.mega {
+	border-bottom: 1px solid #354779;
+	border-top: 1px solid #445990;
+	background: none;
+	padding: 0;
+}
+
+.ja-megamenu ul.level1 li.mega.first {
+	border-top: none;
+}
+
+.ja-megamenu ul.level1 li.mega.last{
+	border-bottom: none;
+}
+
+.ja-megamenu ul.level1 li.haschild, 
+.ja-megamenu ul.level1 li.haschild-over {
+	background: url(https://www.legal-com.ru/templates/ja_droid/images/arrow.png) no-repeat 98% 50% !important;
+}
+
+.ja-megamenu ul.level1 li.mega a.mega {
+	border: none;
+	padding: 8px 0 !important;
+	font-size: 100%;
+	text-transform: none;
+}
+
+.ja-megamenu ul.level1 li.mega a.mega span.menu-title {
+	color: #BDC5D9;
+}
+
+.ja-megamenu ul.level1 li.mega a.mega:hover span.menu-title,
+.ja-megamenu ul.level1 li.mega a.mega:focus span.menu-title,
+.ja-megamenu ul.level1 li.mega a.mega:active span.menu-title, 
+.ja-megamenu ul.level1 li.mega.over a.mega.over span.menu-title {
+	color: #fff;
+}
+
+.ja-megamenu ul.level1 li.mega.active a.mega.active span.menu-title {
+	color: #fff;
+	font-weight: bold;
+}
+
+.ja-megamenu ul.level1 li.group {
+	border: 0 !important;
+}
+
+ /* CHILD CONTENT
+-----------------------------------*/
+.ja-megamenu .childcontent-inner {
+	background: #3C5189;
+	border: 1px solid #354779;
+	border-top: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.ja-megamenu .level1 .childcontent-inner { border: 1px solid #354779; }
+
+.ja-megamenu .childcontent .ja-moduletable { color: #333; }
+
+.ja-megamenu .childcontent .ja-moduletable h3 {
+	background: none;
+	border-bottom: 1px dotted #94a0be;
+	text-transform: uppercase;
+}
+
+/* Grouped --- */
+.ja-megamenu .group-title { 
+	background: url(https://www.legal-com.ru/templates/ja_droid/images/mainnav-hsep.gif) repeat-x left bottom;
+}
+
+.ja-megamenu .group-title .menu-title {
+	color: #BDC5D9;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+.ja-megamenu .group-title .menu-desc {
+	color: #BDC5D9;
+	padding-left: 0 !important;
+}

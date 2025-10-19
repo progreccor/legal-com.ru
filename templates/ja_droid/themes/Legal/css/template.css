@@ -1,0 +1,65 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Droid Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+/* COMMON STYLE
+--------------------------------------------------------- */
+
+
+h6.logo a {
+    height: 164px;
+    width: 900px;
+background: url(https://www.legal-com.ru/images/logo.png) 0% 50% no-repeat;
+display: block;
+}
+
+
+h6.logo {
+
+    float: none;
+    height: 164px;
+    margin: 10px auto 20px;
+    width: 900px;
+}
+
+h6.logo a span {
+position: absolute;
+top: -1000px;
+}
+
+div.banner-text {
+    background: url("https://www.legal-com.ru/templates/ja_droid/images/text-banner-bg.jpg") no-repeat scroll 36% 0 rgba(0, 0, 0, 0);
+}
+
+div.moduletable_hilite a {
+    border-bottom: none;
+}
+
+.img-fulltext-left {
+float: left;
+   border: 1px solid silver;
+    float: left;
+    margin: 15px 20px 0 0;
+    padding: 4px;
+}
+
+
+.wk-accordion-default .toggler {
+    background: url("https://www.legal-com.ru/templates/ja_droid/images/header-bg.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    box-shadow: none;
+    color: white;
+    margin-bottom: 10px;
+    padding: 7px;
+   border: none;
+   text-shadow: none;
+
+}

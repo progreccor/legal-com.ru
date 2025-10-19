@@ -1,0 +1,64 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Droid Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+#ja-slideshow {
+	background: #000;
+	border-top: 1px solid #000;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+}
+
+.ja-slidewrap { border: 0; }
+
+#ja-slideshow .ja-slide-mask,
+#ja-slideshow .ja-slide-mask2 {
+	background: url(https://www.legal-com.ru/templates/ja_droid/images/sl-mask-left.png) no-repeat left top;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: 0;
+}
+
+#ja-slideshow .ja-slide-mask2 {
+	background: url(https://www.legal-com.ru/templates/ja_droid/images/sl-mask-right.png) no-repeat right bottom;
+	position: absolute;
+	z-index: 101;
+}
+
+.ja-slide-main-wrap {
+	margin: 0 auto;
+}
+
+.ja-slide-item {
+	/*position: absolute;*/
+}
+
+#ja-slideshow .main { width: 100% !important;}
+
+.ja-slide-main-wrap { width: 100% !important;}
+
+.maskDesc {
+	height: auto !important;
+	left: 50%;
+	margin-left: -350px;
+	padding-bottom: 25px;
+	z-index: 11;
+}
+
+.maskDesc .ja-slide-desc {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 140%;
+}

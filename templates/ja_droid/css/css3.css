@@ -1,0 +1,104 @@
+/* K2  -- */
+div.itemCommentsForm h3 {
+	text-shadow: 0 1px 1px #fff;
+}
+
+div.postdate-wrap .date {
+	text-shadow: 0 1px 2px #18223B;
+}
+
+div.k2Frontend table.toolbar td a {
+	text-shadow: none;
+}
+
+div.itemAuthorBlock {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 1px 2px 5px #CBD0E2;
+	-webkit-box-shadow: 1px 2px 5px #CBD0E2;
+}
+
+div.itemComments ul.itemCommentsList {
+	box-shadow: 1px 2px 5px #CBD0E2; 
+	-moz-box-shadow: 1px 2px 5px #CBD0E2;
+	-webkit-box-shadow: 1px 2px 5px #CBD0E2;
+}
+
+div.itemCommentsForm {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 1px 2px 5px #CBD0E2;
+	-webkit-box-shadow: 1px 2px 5px #CBD0E2;
+}
+
+/* --- Category block --- */
+div.itemListCategory,
+div.category-desc {
+	-moz-box-shadow: 1px 2px 5px #CBD0E2;
+	-webkit-box-shadow: 1px 2px 5px #CBD0E2;
+}
+
+div.itemListSubCategories a.subCategoryMore {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: 0 0 3px #CBD0E2;
+	-moz-box-shadow: 0 0 3px #CBD0E2;
+	-webkit-box-shadow: 0 0 3px #CBD0E2;
+}
+
+.small-gallery .img-border {
+	box-shadow: 1px 2px 3px #CBD0E2;
+	-moz-box-shadow: 1px 2px 3px #CBD0E2;
+	-webkit-box-shadow: 1px 2px 3px #CBD0E2;
+}
+
+/* User info block */
+div.userBlock {
+	-moz-box-shadow: 1px 2px 5px #CBD0E2;
+	-webkit-box-shadow: 1px 2px 5px #CBD0E2;
+}
+
+/* Template --*/
+.button {
+	text-shadow: 0 1px 1px rgba(24,34,59,1); 
+}
+
+div.ja-moduletable h3, div.moduletable h3 {
+	text-shadow: 0 1px 1px #fff;
+}
+
+div.module h3 {
+	text-shadow: 0 1px 1px #fff;
+}
+
+div.moduletable_hilite h3 {
+	text-shadow: 0px 1px 1px #18223B;
+}
+
+#ja-botsl .ja-moduletable h3 {
+	text-shadow: 0 1px 2px rgba(14, 20, 35, 1) !important;
+}
+
+.customer-feedback p {
+	text-shadow: 0 1px 1px #fff;
+}
+
+div.banner-text {
+	text-shadow: 0px 1px 1px #17233D;
+}
+
+/* Menu --*/
+.ja-megamenu a {
+	text-shadow: 0 0 1px #12192C;
+}
+
+/* Info --*/
+a.demo-button span,
+a.download-button span,
+a.discussion-button span {
+	text-shadow: 1px 1px 0 #fff;
+}
+
+button[type="submit"]{
+	text-shadow: none;
+}
